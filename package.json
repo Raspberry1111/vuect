@@ -1,0 +1,33 @@
+{
+  "name": "vuect",
+  "version": "1.0.1",
+  "description": "A Alternative store to Vuex for Vue 3.x with the composition api",
+  "main": "dist/bundle.js",
+  "author": {
+    "email": "7sansandflowey@gmail.com",
+    "name": "Raspberry1111"
+  },
+  "license": "MIT",
+	"types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && rollup -c && rollup -c types.rollup.config.js && rimraf dist/types/src"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-typescript": "^8.1.0",
+    "@types/node": "^14.14.20",
+    "@types/vue": "^2.0.0",
+    "axios": "^0.21.1",
+    "babel": "^6.23.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.36.1",
+    "rollup-plugin-dts": "^2.0.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.1.0",
+    "typescript": "^4.1.3"
+  }
+}
