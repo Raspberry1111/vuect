@@ -1,6 +1,6 @@
 {
   "name": "vuect",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A Alternative store to Vuex for Vue 3.x with the composition api",
   "main": "dist/bundle.js",
   "author": {
@@ -8,7 +8,7 @@
     "name": "Raspberry1111"
   },
   "license": "MIT",
-	"types": "dist/types/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "build": "rimraf dist && rollup -c && rollup -c types.rollup.config.js && rimraf dist/types/src"
   },
